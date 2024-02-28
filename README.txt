@@ -1,57 +1,58 @@
-Medidor de Distancia L醩er con Factor de Calibraci髇
-Descripci髇 del Proyecto
+# Medidor de Distancia L谩ser con Factor de Calibraci贸n
 
-Este proyecto implementa un medidor de distancia l醩er utilizando la placa Nucleo F401RE de STMicroelectronics, el sensor de distancia VL53L0X y un display OLED con interfaz I2C. La caracter韘tica distintiva de este proyecto es la inclusi髇 de un factor de calibraci髇 para mejorar la precisi髇 de las mediciones en diversas condiciones.
-Caracter韘ticas Principales
+## Descripci贸n del Proyecto
 
-    Sensor de Distancia VL53L0X: Utiliza un sensor l醩er de tiempo de vuelo para mediciones precisas de distancia.
+Este proyecto implementa un medidor de distancia l谩ser utilizando la placa Nucleo F401RE de STMicroelectronics, el sensor de distancia VL53L0X y un display OLED con interfaz I2C. La caracter铆stica distintiva de este proyecto es la inclusi贸n de un factor de calibraci贸n para mejorar la precisi贸n de las mediciones en diversas condiciones.
 
-    Placa Nucleo F401RE: Microcontrolador STM32 Nucleo basado en el ARM Cortex-M4.
+## Caracter铆sticas Principales
 
-    Display OLED con I2C: Proporciona una interfaz de usuario visual para mostrar las mediciones.
+- **Sensor de Distancia VL53L0X:** Utiliza un sensor l谩ser de tiempo de vuelo para mediciones precisas de distancia.
 
-    Factor de Calibraci髇: Permite ajustar y calibrar el dispositivo para mejorar la precisi髇 de las mediciones.
+- **Placa Nucleo F401RE:** Microcontrolador STM32 Nucleo basado en el ARM Cortex-M4.
 
-Requisitos del Sistema
+- **Display OLED con I2C:** Proporciona una interfaz de usuario visual para mostrar las mediciones.
 
-    Hardware:
-        Placa Nucleo F401RE
-        Sensor de Distancia VL53L0X
-        Display OLED con interfaz I2C
-        Conexiones y cables necesarios
+- **Factor de Calibraci贸n:** Permite ajustar y calibrar el dispositivo para mejorar la precisi贸n de las mediciones.
 
-    Software:
-        STM32CubeIDE u otro entorno de desarrollo compatible
-        Bibliotecas necesarias para el sensor VL53L0X y el display OLED
+## Requisitos del Sistema
 
-Instalaci髇 y Configuraci髇
+- **Hardware:**
+  - Placa Nucleo F401RE
+  - Sensor de Distancia VL53L0X
+  - Display OLED con interfaz I2C
+  - Conexiones y cables necesarios
 
-    Clona el Repositorio:
+- **Software:**
+  - STM32CubeIDE u otro entorno de desarrollo compatible
+  - Bibliotecas necesarias para el sensor VL53L0X y el display OLED
 
-    bash
+## Instalaci贸n y Configuraci贸n
 
-    git clone https://github.com/tu-usuario/medidor-distancia-laser.git
+1. **Clona el Repositorio:**
 
-    Configura el Hardware:
-        Conecta el sensor VL53L0X y el display OLED a la placa Nucleo F401RE seg鷑 las especificaciones del fabricante.
+git clone https://github.com/tu-usuario/medidor-distancia-laser.git
 
-    Configuraci髇 del Proyecto:
-        Abre el proyecto en STM32CubeIDE (o tu entorno de desarrollo preferido) y configura el proyecto seg鷑 las especificaciones de hardware.
 
-    Carga el C骴igo:
-        Compila y carga el c骴igo en la placa Nucleo F401RE.
+2. **Configura el Hardware:**
+- Conecta el sensor VL53L0X y el display OLED a la placa Nucleo F401RE seg煤n las especificaciones del fabricante.
 
-    Calibraci髇:
-        Sigue las instrucciones proporcionadas en el c骴igo para realizar la calibraci髇 inicial.
+3. **Configuraci贸n del Proyecto:**
+- Abre el proyecto en STM32CubeIDE (o tu entorno de desarrollo preferido) y configura el proyecto seg煤n las especificaciones de hardware.
 
-Uso
+4. **Carga el C贸digo:**
+- Compila y carga el c贸digo en la placa Nucleo F401RE.
 
-    Enciende el dispositivo.
+5. **Calibraci贸n:**
+- Sigue las instrucciones proporcionadas en el c贸digo para realizar la calibraci贸n inicial.
 
-    Selecciona el objeto al que deseas medir la distancia.
+## Uso
 
-    Observa la distancia medida en el display OLED.
+1. Enciende el dispositivo.
 
-Contribuciones
+2. Selecciona el objeto al que deseas medir la distancia.
 
-Las contribuciones son bienvenidas. Si encuentras errores o tienes mejoras, por favor, crea un problema o env韆 una solicitud de extracci髇.
+3. Observa la distancia medida en el display OLED.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si encuentras errores o tienes mejoras, por favor, crea un problema o env铆a una solicitud de extracci贸n.
